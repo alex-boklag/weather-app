@@ -1,0 +1,47 @@
+.text-field-section > label {
+  color: #808080;
+}
+
+.text-field-section > label:focus {
+  color: #000000;
+}
+
+.text-field-section > input {
+  width: 200px;
+  height: 30px;
+  padding: 2px 5px 5px 5px;
+  margin: 5px 10px 0 0;
+  border: 1px solid #C0C0C0;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.text-field-section > input:focus {
+  border: 1px solid #000000;
+  color: #000000;
+  outline: none;
+}
+
+.text-field-section > button {
+  width: 70px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.text-field-section > button:hover {
+  background-color: #808080;
+  cursor: pointer;
+}
+
+.text-field-section > button:disabled {
+  background-color: #C0C0C0;
+  cursor: not-allowed;
+}
+
+.errorMessage {
+  font-size: smaller;
+  color: #ff6347;
+}

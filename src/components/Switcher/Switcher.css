@@ -1,0 +1,7 @@
+.switcher-section > select {
+  height: 30px;
+  color: #808080;
+  font-size: larger;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.multiple-select-section > p {
+  width: 100%;
+}
+
+.multiple-select-section input {
+  font-size: larger;
+  cursor: pointer;
+}

@@ -1,0 +1,1 @@
+export { DynamicallyTable } from './DynamicallyTable';
