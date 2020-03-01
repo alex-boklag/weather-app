@@ -8,8 +8,8 @@ export const Switcher = ({ units, handleSwitcherChange }) => {
                 value={units}
                 onChange={(ev) => handleSwitcherChange(ev.target.value)}
             >
-                <option value="imperial">Imperial</option>
-                <option value="metric">Metric</option>
+                <option value="imperial">℉</option>
+                <option value="metric">℃</option>
             </select>
         </section>
     );
