@@ -2,11 +2,8 @@
   color: #808080;
 }
 
-.text-field-section > label:focus {
-  color: #000000;
-}
-
 .text-field-section > input {
+  transition: all 0.5s ease-in-out;
   width: 200px;
   height: 30px;
   padding: 2px 5px 5px 5px;
@@ -14,29 +11,34 @@
   border: 1px solid #C0C0C0;
   border-radius: 5px;
   font-size: larger;
-}
-
-.text-field-section > input:focus {
-  border: 1px solid #000000;
-  color: #000000;
   outline: none;
 }
 
+.text-field-section > input:focus {
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
 .text-field-section > button {
+  transition: all 0.5s ease-in-out;
   width: 70px;
   height: 40px;
   background-color: #000000;
   color: #ffffff;
   border-radius: 5px;
   font-size: larger;
+  outline: none;
 }
 
 .text-field-section > button:hover {
+  transition: all 0.5s ease-in-out;
   background-color: #808080;
   cursor: pointer;
 }
 
 .text-field-section > button:disabled {
+  transition: all 0.5s ease-in-out;
   background-color: #C0C0C0;
   cursor: not-allowed;
 }
