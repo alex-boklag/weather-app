@@ -3,12 +3,27 @@
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-gap: 5px 50px;
-  grid-template-columns: 1fr 5fr 5fr 2fr 1fr;
+  grid-template-columns: 1fr 10fr 2fr 1fr;
   grid-template-rows: 1fr 1fr auto;
   grid-template-areas: 
-    ". TextField . . ."
-    ". CityInfo . Switcher ."
-    ". DynamicallyTable DynamicallyTable MultipleSelect .";
+    ". TextField . ."
+    ". CityInfo Switcher ."
+    ". DynamicallyTable MultipleSelect .";
+}
+
+@media all and (max-width: 980px) {
+  .container {
+    margin: 10px;
+    grid-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 50px 220px 100px 100px ;
+    grid-template-areas: 
+      "TextField"
+      "Switcher"
+      "MultipleSelect"
+      "CityInfo"
+      "DynamicallyTable";
+  }
 }
 
 .text-field-section {
